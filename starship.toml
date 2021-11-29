@@ -1,0 +1,15 @@
+[username]
+style_user = ""
+disabled = false
+show_always = true
+format = "[${user}@]($style)"
+
+[hostname]
+ssh_only = false
+style = ""
+format = "[${hostname}> ]($style)"
+
+[directory]
+truncation_length = 5
+truncate_to_repo = false
+style = "#3584E4"
